@@ -1,0 +1,15 @@
+2024-04-02 17:11:15 INFO edu.baylor.ecs.si.Timer <clinit> starting the app
+2024-04-02 17:11:15 INFO edu.baylor.ecs.si.Timer timeMe Calling took: 1
+2024-04-02 17:11:15 INFO edu.baylor.ecs.si.Timer timeMe * should take: 0
+2024-04-02 17:11:15 FINER org.junit.jupiter.engine.execution.ConditionEvaluator logResult Evaluation of condition [org.junit.jupiter.engine.extension.DisabledCondition] resulted in: ConditionEvaluationResult [enabled = true, reason = '@Disabled is not present']
+2024-04-02 17:11:15 FINER org.junit.jupiter.engine.execution.ConditionEvaluator logResult Evaluation of condition [org.junit.jupiter.engine.extension.DisabledCondition] resulted in: ConditionEvaluationResult [enabled = true, reason = '@Disabled is not present']
+2024-04-02 17:11:16 INFO edu.baylor.ecs.si.Timer timeMe Calling took: 1016
+2024-04-02 17:11:16 INFO edu.baylor.ecs.si.Timer timeMe * should take: 1000
+2024-04-02 17:11:16 FINE java.lang.Shutdown logRuntimeExit Runtime.exit() called with status: -1
+java.lang.Throwable: Runtime.exit(-1)
+	at java.base/java.lang.Shutdown.logRuntimeExit(Shutdown.java:179)
+	at java.base/java.lang.Shutdown.exit(Shutdown.java:160)
+	at java.base/java.lang.Runtime.exit(Runtime.java:188)
+	at java.base/java.lang.System.exit(System.java:1916)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:56)
+
